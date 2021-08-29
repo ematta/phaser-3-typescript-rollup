@@ -1,0 +1,39 @@
+{
+  "name": "infinite-runner",
+  "version": "0.0.0",
+  "description": "Infinite Runner Game (from Ourcade Tutorial)",
+  "scripts": {
+    "dev": "rollup --config rollup.config.dev.js",
+    "watch": "rollup --watch --config rollup.config.dev.js",
+    "build": "rollup --config rollup.config.js",
+    "lint": "eslint --fix ./src"
+  },
+  "author": "Enrique Matta-Rodriguez <enrique@matta.dev>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ematta/infinite-runner.git"
+  },
+  "homepage": "https://infiniterunner.matta.dev",
+  "devDependencies": {
+    "@rollup/plugin-alias": "^3.1.5",
+    "@rollup/plugin-commonjs": "^20.0.0",
+    "@rollup/plugin-html": "^0.2.3",
+    "@rollup/plugin-image": "^2.1.1",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^13.0.4",
+    "@rollup/plugin-replace": "^3.0.0",
+    "@rollup/plugin-typescript": "^8.2.5",
+    "@typescript-eslint/eslint-plugin": "^4.29.3",
+    "@typescript-eslint/parser": "^4.29.3",
+    "eslint": "~7.32.x",
+    "less": "^4.1.x",
+    "minimist": "~1.2.x",
+    "rollup": "^2.56.3",
+    "rollup-plugin-serve": "^1.1.0",
+    "typescript": "~4.4.x"
+  },
+  "dependencies": {
+    "phaser": "~3.55.x"
+  }
+}
